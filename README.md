@@ -3,6 +3,6 @@ cuda programming tutorial
 
 # good material
 - https://developer.nvidia.com/cuda-education
- -- four example programs
+	- four good C programs
 - https://devblogs.nvidia.com/even-easier-introduction-cuda/
- -- understand grid, block, thread
+	- understand grid, block, thread
