@@ -26,7 +26,7 @@ __global__ void calculateCFD_V1( float* input,  float* output, unsigned int Ni, 
 //This version of Kernel uses optimization by copying the data into shared memory and hence results in better performance
 __global__ void calculateCFD_V2( float* input,  float* output, unsigned int Ni, unsigned int Nj, 
 								   float h){
-
+  
 	//printf("\nthread_per_block:x:%d,y:%d\n",blockDim.x,blockDim.y);
 	//32,16
 	//Current Global ID
