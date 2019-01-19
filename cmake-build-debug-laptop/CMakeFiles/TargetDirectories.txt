@@ -1,0 +1,3 @@
+/home/csc/cuda-programming-tutorial/cmake-build-debug-laptop/CMakeFiles/rebuild_cache.dir
+/home/csc/cuda-programming-tutorial/cmake-build-debug-laptop/CMakeFiles/edit_cache.dir
+/home/csc/cuda-programming-tutorial/cmake-build-debug-laptop/CMakeFiles/cudaProgram.dir
