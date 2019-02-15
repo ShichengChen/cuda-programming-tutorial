@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 #define RADIUS        3
-//#define BLOCK_SIZE    256
-#define BLOCK_SIZE    8
-//#define NUM_ELEMENTS  (4096*2)
-#define NUM_ELEMENTS  (8*2)
+#define BLOCK_SIZE    256
+//#define BLOCK_SIZE    8
+#define NUM_ELEMENTS  (4096*2)
+//#define NUM_ELEMENTS  (8*2)
 
 // CUDA API error checking macro
 #define cudaCheck(error) \
