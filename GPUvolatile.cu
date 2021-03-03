@@ -18,10 +18,15 @@ __global__ void dkern(){
 using namespace std;
 
 int main() {
-    //freopen ("swapinout.txt","w",stdout);
+
+    for (int i=0;i<100;i++){
+        void *deviceArray=(void*)0;
+        cudaMalloc((void**)&deviceArray,1e9);
+    }
+
     {
         int my_delay = 100;
-        for (int i = 0;i<100 ; i++){
+        for (int i = 0; ; i++){
             dkern<<<1,1>>>();
             usleep(my_delay);
         }
